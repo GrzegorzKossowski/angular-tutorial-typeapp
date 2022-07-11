@@ -1,0 +1,10 @@
+<div class="card">
+  <h3 class="title is-3">Typing game</h3>
+  <div class="generated-line">
+    <span *ngFor="let letter of randomText.split(''); let i = index"
+    [class]="compare(letter, enteredText[i])"
+    >{{letter}}</span>
+  </div>
+  <input type="text" class="input" (input)="onInput($event)"/>
+  <h3 *ngIf="isHidden">You win</h3>
+</div>

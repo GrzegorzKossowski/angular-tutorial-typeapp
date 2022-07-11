@@ -1,0 +1,31 @@
+.card {
+  min-width: 450px;
+  border: 1px solid black;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card h3 {
+  text-align: center;
+  margin: 1rem 0;
+}
+.generated-line {
+  text-align: center;
+  margin: 1rem 0;
+}
+.input {
+  margin: 1rem 0;
+}
+.input:active, .input:focus {
+  outline: none;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.pending {
+  color: #333;
+}
